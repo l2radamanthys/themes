@@ -1,0 +1,52 @@
+
+.form-ui {
+    
+}
+
+.form-ui label {
+    display: block;
+    margin-bottom:3pt;
+}
+
+.form-ui p {
+    margin-bottom: 5pt;
+}
+
+.form-ui input[type="text"], 
+.form-ui input[type="password"], 
+.form-ui textarea, 
+.form-ui select
+
+{
+    background: linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    border: 1px solid #AFAFAF;
+    border-radius: 3px;
+    margin-left: 10pt;
+}
+
+.form-ui input[type="text"], 
+.form-ui input[type="password"]
+{
+    height: 20px;
+    font-size: 10pt;
+    padding: 5px 5px 4px 5px; 
+
+}
+
+.form-ui select {
+    heigth: 40px;
+    padding: 5px;
+    line-height: 1;
+    border: 1px solid #AAA;
+    min-width: 100px;
+    border-radius: 3px;
+}
+
+.form-ui textarea {
+    padding: 5px;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+}
+

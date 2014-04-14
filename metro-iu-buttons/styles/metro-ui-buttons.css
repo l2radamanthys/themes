@@ -60,3 +60,78 @@
     background-color: #474747;
     border-left: 2px solid #474747;
 }
+
+/**/
+
+.metro-ui-button.icon-ok {
+    background-image: url('../images/metro-ui-buttons/ok.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+.metro-ui-button.icon-lock {
+    background-image: url('../images/metro-ui-buttons/lock.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-user {
+    background-image: url('../images/metro-ui-buttons/user.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+.metro-ui-button.icon-save {
+    background-image: url('../images/metro-ui-buttons/save.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-home {
+    background-image: url('../images/metro-ui-buttons/home.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-prev {
+    background-image: url('../images/metro-ui-buttons/back.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-next {
+    background-image: url('../images/metro-ui-buttons/foward.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-trash {
+    background-image: url('../images/metro-ui-buttons/trash.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+.metro-ui-button.icon-setings {
+    background-image: url('../images/metro-ui-buttons/setings.png');   
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+
+
+
