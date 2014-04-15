@@ -17,17 +17,25 @@
     margin-bottom: 5pt;
 }
 
-.form-ui input[type="text"], 
+.form-ui input[type="text"],
+.form-ui input[type="search"],
+.form-ui input[type="date"],
+.form-ui input[type="datetime"],
 .form-ui input[type="password"], 
 .form-ui textarea, 
-.form-ui select
+.form-ui select,
+
 {
     background: linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);
     background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
     background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
     border: 1px solid #AFAFAF;
     border-radius: 3px;
     margin-left: 10pt;
+    -moz-box-shadow: inset 0 0 4px #BBB;
+    -webkit-box-shadow: inset 0 0 4px #BBB;
+    box-shadow: inset 0 0 4px #BBB;
 }
 
 
