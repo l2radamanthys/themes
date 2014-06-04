@@ -1,0 +1,15 @@
+
+.simple-box {
+    padding: 10px;
+    border: 1px solid #C3C3C3;
+}
+
+.fancy-box {
+    padding: 20px 10px;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 15px #BBB;
+}
+
+.round-box {
+    border-radius: 5px;
+}

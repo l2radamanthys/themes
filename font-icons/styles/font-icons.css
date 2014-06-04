@@ -1,0 +1,220 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'fontawesome';
+  src: url("../fonts/fontawesome-webfont.ttf") format('truetype');
+}
+
+
+p {
+    font-family: Arial;
+    font-size: 12pt;
+    display: inline-block;
+    width: 180px;
+}
+
+/** Colores **/
+
+.cred::after,
+.cred::before {
+    color: #F00;
+}
+
+.cblue::after,
+.cblue::before {
+    color: #00F;
+}
+
+.cgreen::after,
+.cgreen::before {
+    color: #0F0;
+}
+
+.cgray::after,
+.cgray::before {
+    color: #AAA;
+}
+
+
+/** Iconos **/
+
+.r-email-icon::after,
+.l-email-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f003"" ";
+}
+
+.r-search-icon::after,
+.l-search-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f002"" ";
+}
+
+.r-user-icon::after,
+.l-user-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f007"" ";
+}
+
+.r-true-icon::after,
+.l-true-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f00c"" ";
+}
+
+.r-false-icon::after,
+.l-false-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f00d"" ";
+}
+
+.r--icon::after,
+.l--icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f00d"" ";
+}
+
+.r-pencil-icon::after,
+.l-pencil-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f040"" ";
+}
+
+.r-info-icon::after,
+.l-info-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f05a"" ";
+}
+
+.r-answer-icon::after,
+.l-answer-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f059"" ";
+}
+
+.r-notify-icon::after,
+.l-notify-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f06a"" ";
+}
+
+.r-alert-icon::after,
+.l-alert-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f071"" ";
+}
+
+.r-plus-icon::after,
+.l-plus-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f055"" ";
+}
+
+.r-minus-icon::after,
+.l-minus-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f056"" ";
+}
+
+.r-cancel-icon::after,
+.l-cancel-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f05e"" ";
+}
+
+.r-ok-icon::after,
+.l-ok-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f05d"" ";
+}
+
+.r-config-icon::after,
+.l-config-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f1de"" ";
+}
+
+.r-gear-icon::after,
+.l-gear-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f013"" ";
+}
+
+.r-shield-icon::after,
+.l-shield-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f132"" ";
+}
+
+.r-help-icon::after,
+.l-help-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f1cd"" ";
+}
+
+.r-trash-icon::after,
+.l-trash-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f014"" ";
+}
+
+.r-shutdown-icon::after,
+.l-shutdown-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f011"" ";
+}
+
+.r-clock-icon::after,
+.l-clock-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f017"" ";
+}
+
+.r-cloud-icon::after,
+.l-cloud-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f0c2"" ";
+}
+
+.r--icon::after,
+.l--icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f00d"" ";
+}
+
+.r-lock-icon::after,
+.l-lock-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f023"" ";
+}
+
+
+.r-openlock-icon::after,
+.l-openlock-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f09c"" ";
+}
+
+.r-tag-icon::after,
+.l-tag-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f02b"" ";
+}
+
+.r-group-icon::after,
+.l-group-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f0c0"" ";
+}
+
+.r-file-icon::after,
+.l-file-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f15b"" ";
+}
+
+.r-save-icon::after,
+.l-save-icon::before {
+    font-family: 'fontawesome';
+    content:" ""\f0c7"" ";
+}
