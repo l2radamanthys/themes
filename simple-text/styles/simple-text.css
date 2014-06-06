@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url("../fonts/segoeui.ttf") format('truetype');
+}
+
+
+h1, h2, h3, h4, h5, h6, 
+p, a, label, li, span, div {
+    font-family: OpenSans, SegoeUI;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 28pt;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 24pt;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: None;
+    color: #0066FF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
