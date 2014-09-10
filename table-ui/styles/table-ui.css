@@ -1,0 +1,29 @@
+
+
+.table-ui {
+    font-family: Open Sans, Verdana, Arial;
+}
+
+.table-ui th {
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+/* hacer oscuras las filas pares */
+.table-ui tr:nth-child(2n) {
+    background-color: #EAEAEA;
+}
+
+.table-ui td {
+    font-size: 10pt;
+    padding: 10px 5px;
+    border-right: 1px solid #808080;
+}  
+
+.table-ui td:first-child  {
+    border-left: none;
+}
+
+.table-ui td:last-child {
+    border-right: none;
+}
