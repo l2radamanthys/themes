@@ -1,9 +1,16 @@
+/*************************************************************
+ * Autor: Ricardo Daniel Quiroga - L2Radamanthys
+ * ricardoquiroga.dev@gmail.com
+ * http://www.co2soft.com.ar
+ * Ultima Modificacion: 10/09/2014
+ *************************************************************/
 
 .form-ui {
     
 }
 
 .form-ui label {
+    font-size: 9pt;
     display: block;
     margin-left: 10pt;
     margin-bottom: 3pt;
@@ -17,14 +24,19 @@
     margin-bottom: 5pt;
 }
 
+.form-ui td {
+    padding-bottom: 5px;
+}
+
 .form-ui input[type="text"],
+.form-ui input[type="number"],
 .form-ui input[type="search"],
 .form-ui input[type="date"],
 .form-ui input[type="datetime"],
+.form-ui input[type="email"], 
 .form-ui input[type="password"], 
 .form-ui textarea, 
 .form-ui select,
-
 {
     background: linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);
     background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
@@ -40,13 +52,21 @@
 
 
 .form-ui input[type="text"], 
+.form-ui input[type="number"],
+.form-ui input[type="email"], 
 .form-ui input[type="password"]
 {
     height: 20px;
     font-size: 10pt;
     padding: 5px 5px 4px 5px; 
-
 }
+
+
+.form-ui input[type="number"] 
+{
+    text-align: right;
+}
+
 
 .form-ui select {
     heigth: 40px;
@@ -56,6 +76,7 @@
     min-width: 100px;
     border-radius: 3px;
 }
+
 
 .form-ui textarea {
     padding: 5px;
@@ -149,32 +170,32 @@
 
 /* Tamaños */
 /*********************************************************/
-.form-ui input[type="text"].f-xsmall
+.form-ui .f-xsmall,
 {
     width: 50px;
 }
 
-.form-ui input[type="text"].f-small
+.form-ui .f-small
 {
     width: 100px;
 }
 
-.form-ui input[type="text"].f-middle
+.form-ui .f-middle
 {
     width: 150px;
 }
 
-.form-ui input[type="text"].f-xmiddle
+.form-ui .f-xmiddle
 {
     width: 200px;
 }
 
-.form-ui input[type="text"].f-large
+.form-ui .f-large
 {
     width: 250px;
 }
 
-.form-ui input[type="text"].f-xlarge
+.form-ui .f-xlarge
 {
     width: 350px;
 }

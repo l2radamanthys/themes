@@ -1,0 +1,56 @@
+.notify-info, .notify-success, .notify-alert, .notify-error{
+	font-family: OpenSans, Verdana, Geneva, Arial;
+	font-size: 10pt;
+    width: 640px;
+    margin: 0 auto;
+    color: #FFF;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;  
+}
+
+.notify-info p, .notify-success p, .notify-alert p, .notify-error p {
+	margin: 0;
+}
+
+.notify-info li, .notify-success li, .notify-alert li, .notify-error li{
+	list-style-type: None;
+}
+
+
+.notify-info {
+    background-color: #32ADE9;
+    border-left: 5px solid #004A95;
+
+}
+
+
+.notify-success {
+    //color: #4F8A10;
+    background-color: #83BA25;
+    border-left: 5px solid #497D0F;
+
+}
+
+
+.notify-alert {
+    background-color: #FBC902;
+    border-left: 5px solid #C47500;
+}
+
+
+.notify-error {
+    background-color: #FF8C8C;
+    border-left: 5px solid #D8000C;
+}
+
+
+.form-error {
+    font-family: OpenSans, Verdana, Tahoma;
+    color: #AE0000;
+    font-size: 8pt;
+}
+
+.form-error e {
+    font-weight: bold;
+}

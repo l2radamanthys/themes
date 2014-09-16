@@ -26,9 +26,28 @@
 
 .cgray::after,
 .cgray::before {
-    color: #AAA;
+    color: #666;
 }
 
+.cblack::after,
+.cblack::before {
+    color: #000;
+}
+
+.cwhite::after,
+.cwhite::before {
+    color: #FFF;
+}
+
+/** Actuar como boton **/
+
+.fbtn::after, .fbtn::before {
+	opacity: 1;
+}
+
+.fbtm:hover:after, .fbtn:hover:before {
+	opacity: 0.7;
+}
 
 /** Iconos **/
 
